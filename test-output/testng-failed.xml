@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw10Q2selenium.CvsPharmacy">
+      <class name="hw11Q2selenium.Moderna">
         <methods>
           <include name="setup"/>
-          <include name="close"/>
-          <include name="search"/>
+          <include name="homeButtonclick"/>
+          <include name="tearup"/>
+          <include name="actionPipeline"/>
         </methods>
-      </class> <!-- hw10Q2selenium.CvsPharmacy -->
+      </class> <!-- hw11Q2selenium.Moderna -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-14T03:03:47 EDT" name="Default suite" finished-at="2021-09-14T03:04:20 EDT" duration-ms="33183">
+  <suite started-at="2021-09-14T18:18:03 EDT" name="Default suite" finished-at="2021-09-14T18:18:50 EDT" duration-ms="47652">
     <groups>
     </groups>
-    <test started-at="2021-09-14T03:03:47 EDT" name="Default test" finished-at="2021-09-14T03:04:20 EDT" duration-ms="33183">
+    <test started-at="2021-09-14T18:18:03 EDT" name="Default test" finished-at="2021-09-14T18:18:50 EDT" duration-ms="47652">
       <class name="hw11Q2selenium.Moderna">
-        <test-method is-config="true" signature="setup()[pri:0, instance:hw11Q2selenium.Moderna@2f7c2f4f]" started-at="2021-09-14T03:03:47 EDT" name="setup" finished-at="2021-09-14T03:03:53 EDT" duration-ms="5717" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:03 EDT" name="setup" finished-at="2021-09-14T18:18:07 EDT" duration-ms="4031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="search()[pri:1, instance:hw11Q2selenium.Moderna@2f7c2f4f]" started-at="2021-09-14T03:03:53 EDT" name="search" finished-at="2021-09-14T03:03:57 EDT" duration-ms="3679" status="PASS">
+        <test-method signature="search()[pri:1, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:07 EDT" name="search" finished-at="2021-09-14T18:18:10 EDT" duration-ms="3166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method signature="searchbarclick()[pri:2, instance:hw11Q2selenium.Moderna@2f7c2f4f]" started-at="2021-09-14T03:03:57 EDT" name="searchbarclick" finished-at="2021-09-14T03:04:11 EDT" duration-ms="14217" status="PASS">
+        <test-method signature="searchbarclick()[pri:2, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:10 EDT" name="searchbarclick" finished-at="2021-09-14T18:18:23 EDT" duration-ms="13516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchbarclick -->
-        <test-method signature="actionPipeline()[pri:3, instance:hw11Q2selenium.Moderna@2f7c2f4f]" started-at="2021-09-14T03:04:11 EDT" name="actionPipeline" finished-at="2021-09-14T03:04:20 EDT" duration-ms="8855" status="PASS">
+        <test-method signature="actionPipeline()[pri:3, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:23 EDT" name="actionPipeline" finished-at="2021-09-14T18:18:32 EDT" duration-ms="8604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actionPipeline -->
-        <test-method signature="getTextInvestors()[pri:4, instance:hw11Q2selenium.Moderna@2f7c2f4f]" started-at="2021-09-14T03:04:20 EDT" name="getTextInvestors" finished-at="2021-09-14T03:04:20 EDT" duration-ms="72" status="PASS">
+        <test-method signature="getTextInvestors()[pri:4, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:32 EDT" name="getTextInvestors" finished-at="2021-09-14T18:18:32 EDT" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTextInvestors -->
-        <test-method is-config="true" signature="tearup()[pri:0, instance:hw11Q2selenium.Moderna@2f7c2f4f]" started-at="2021-09-14T03:04:20 EDT" name="tearup" finished-at="2021-09-14T03:04:20 EDT" duration-ms="484" status="PASS">
+        <test-method signature="navigation()[pri:5, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:32 EDT" name="navigation" finished-at="2021-09-14T18:18:45 EDT" duration-ms="12917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method signature="dimensionSet()[pri:6, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:45 EDT" name="dimensionSet" finished-at="2021-09-14T18:18:50 EDT" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dimensionSet -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:hw11Q2selenium.Moderna@ef9296d]" started-at="2021-09-14T18:18:50 EDT" name="tearup" finished-at="2021-09-14T18:18:50 EDT" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
