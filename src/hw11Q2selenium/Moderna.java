@@ -75,10 +75,29 @@ public class Moderna {
  		Thread.sleep(3000);
  		driver.manage().window().getSize();
  		System.out.println("Dimension of the window= "+driver.manage().window().getSize());  //getSize()
- 		
- 		
+ 		Thread.sleep(4000);
+ 	}
+ 	@Test(enabled = true,priority = 7)
+ 	public void logoTest () {
+    boolean logo= driver.findElement(By.xpath("//img[@class='logo']")).isDisplayed();   //isDisplayed()
+    System.out.println("Moderna Logo is Displayed = "+logo);
+
+ 	}
+ 	@Test(enabled = true,priority = 8)
+ 	public void enableLogoCheck() {
+ 		boolean modernaenable=driver.findElement(By.xpath("//img[@class='logo']")).isEnabled();//isEnable()
+ 				System.out.println("Moderna Logo is Enable ="+ modernaenable);
  		
  	}
+ 	@Test (enabled = true,priority = 9)
+ 	public void selectableLogoCheck() {
+ 		boolean modernaSelectable=driver.findElement(By.xpath("//img[@class='logo']")).isSelected();//isSelected()
+ 		System.out.println("Moderna logo is selectable ="+modernaSelectable);
+ 	}
+ 		
+ 		
+ 		
+ 	
  	
      
  	@AfterTest
